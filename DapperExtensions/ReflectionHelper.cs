@@ -9,7 +9,7 @@ namespace DapperExtensions
 {
     public static class ReflectionHelper
     {
-        private static List<Type> _simpleTypes = new List<Type>
+        private static readonly List<Type> _simpleTypes = new List<Type>
                                {
                                    typeof(byte),
                                    typeof(sbyte),
