@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace DapperExtensions
+namespace DapperExtensions.DotNetStandard20
 {
     public static class ReflectionHelper
     {
